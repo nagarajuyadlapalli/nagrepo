@@ -3,7 +3,7 @@ private class AccountManagerTest{
     static testMethod void testMethod1(){
         Account objAccount = new Account(Name = 'test Account');
         insert objAccount;
-        Contact objContact = new Contact(LastName = 'test Contact',
+        Contact objContact = new Contact(LastName = 'test Contact',FristName ='NAg'
                                          AccountId = objAccount.Id);
         objContact.Loan_Amount__c = 10;
         insert objContact;
