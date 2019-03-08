@@ -1,0 +1,15 @@
+<apex:page >
+<apex:form >
+<apex:panelGrid columns="3" id="thegrid" border="5">
+<apex:outputText value="first" id="first"></apex:outputText>
+<apex:outputText value="second" id="second"></apex:outputText>
+<apex:outputText value="third" id="third"></apex:outputText>
+<apex:outputText value="fourth" id="fourth"></apex:outputText>
+<apex:outputText value="fifth" id="fifth"></apex:outputText>
+<apex:outputText value="sixth" id="sixth"></apex:outputText>
+<apex:outputText value="seventh" id="seventh"></apex:outputText>
+<apex:outputText value="eigth" id="eigth"></apex:outputText>
+
+</apex:panelGrid>
+</apex:form>
+</apex:page>

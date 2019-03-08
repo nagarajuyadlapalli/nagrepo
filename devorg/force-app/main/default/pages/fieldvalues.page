@@ -1,0 +1,3 @@
+<apex:page standardController="Account" >
+First name of the Account is: {! Account.phone}
+</apex:page>

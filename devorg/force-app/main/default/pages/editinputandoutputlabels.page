@@ -1,0 +1,9 @@
+<apex:page standardController="account">
+<apex:form >
+<apex:pageblock title="nag">
+<apex:pageBlockSection title="my personal data">
+<apex:outputField value="{!account.type}" label="nagaraju ki"/>
+</apex:pageBlockSection>
+</apex:pageblock>
+</apex:form>
+</apex:page>

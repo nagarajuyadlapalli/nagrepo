@@ -1,0 +1,17 @@
+<apex:page >
+<apex:form >
+<apex:pageblock >
+
+<h1>Please fill up the form for the janapadu village Applications</h1><br/><br/>
+Enter Name: <apex:inputtext id="name"/><br/><br/>
+Enter age: <apex:inputtext id="id"/><br/><br/>
+Enter UserName: <apex:inputtext id="username"/><br/><br/>
+Enter password: <apex:inputsecret id="password"/><br/><br/>
+<!--Cover Letter: <apex:inputtextarea id="cover letter"/>-->
+Are you US Citizen? <apex:inputcheckbox /><br/><br/>
+
+<apex:commandButton value="save/"/>
+
+</apex:pageblock>
+</apex:form>
+ </apex:page>

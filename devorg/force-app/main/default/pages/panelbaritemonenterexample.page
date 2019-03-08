@@ -1,0 +1,9 @@
+<apex:page sidebar="false" showHeader="false">
+<apex:form >
+<h1>This is an example for panelbar item on enter and on leave</h1>
+<apex:panelBar >
+<apex:panelBarItem label="item1" onenter="alert('item1 entering');" onleave="alert('item1 leaving');">this is nag</apex:panelBarItem>
+<apex:panelBarItem label="item2" onenter="alert('item2 entering');" onleave="alert('item2 leaving');">this is janapadu</apex:panelBarItem>
+</apex:panelBar>
+</apex:form>
+</apex:page>

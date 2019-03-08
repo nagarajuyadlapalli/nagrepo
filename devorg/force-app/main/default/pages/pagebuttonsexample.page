@@ -1,0 +1,28 @@
+<apex:page sidebar="false" showheader="false">
+                                  <apex:form >
+                                     
+                                     <apex:pageBlock title="Lavada">
+                                    <!--   <apex:commandbutton value="save"/>    -->
+                                     <apex:pageblockSection title="sulliga">
+                                     <apex:pageblockSectionItem >This is nagraj</apex:pageblockSectionItem>
+                                     <apex:pageblockSectionItem >This is nagraj1</apex:pageblockSectionItem>
+                                     <apex:pageblockSectionItem >This is nagraj2</apex:pageblockSectionItem>
+                                     
+                                     </apex:pageblockSection>
+
+                                      <apex:pageblockSection title="bochuga">
+                                       <apex:pageblockSectionItem >bochu peeku</apex:pageblockSectionItem>
+                                     <apex:pageblockSectionItem >dengara sulli ga</apex:pageblockSectionItem>
+                                     <apex:pageblockSectionItem >peekinav thee</apex:pageblockSectionItem>
+                                     
+                                     </apex:pageblockSection>
+                                      
+                                     
+                                     <apex:pageBlockButtons >
+                                      <apex:commandbutton value="save"/>
+                                      </apex:pageBlockButtons>
+                                      </apex:pageBlock>
+                                    
+                                     </apex:form>
+                                     
+                                    </apex:page>

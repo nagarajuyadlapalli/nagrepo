@@ -1,0 +1,7 @@
+<apex:page >
+<apex:tabpanel switchtype="client">
+<apex:tab label="Home">Visualforce is the component-based user interface framework.</apex:tab>
+<apex:tab label="Students">Web-enabled code embedded within a single tag.</apex:tab>
+
+</apex:tabpanel>
+</apex:page>

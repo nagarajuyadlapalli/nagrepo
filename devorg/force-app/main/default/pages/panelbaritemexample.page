@@ -1,0 +1,9 @@
+<apex:page >
+<apex:form >>
+<apex:panelBar >
+<apex:panelbarItem label="item1">na modda kudra</apex:panelbarItem>
+<apex:panelbarItem label="item2">pakkaki dengura sulliga</apex:panelbarItem>
+<apex:panelbarItem label="item3">Gudda denginchuko sulli ga</apex:panelbarItem>
+</apex:panelBar>
+</apex:form>
+</apex:page>

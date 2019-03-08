@@ -1,0 +1,36 @@
+<apex:page standardController="Account">
+<apex:sectionHeader title="jp" subtitle="pdrl"/>
+<apex:image value="http://photobucket.com/gallery/user/melissahowarddesign/media/cGF0aDpJbGx1c3RyYXRpb24vZGVlci5wbmc=/?searchTerm=illustration&page=1" style="logo"/>
+
+
+<apex:form >
+<apex:pageBlock title="my village details" >
+<apex:pageBlockSection >
+<apex:outputPanel styleclass="ramalayam">
+my house is near to ramalayam<li/>
+Busses are going besides the ramalayam<li/>
+<apex:inputfield value="{!Account.Fax}"/>
+<apex:inputfield value="{!account.Name}"/>
+<style>
+.ramalayam{
+float:right;
+
+.Account.Name{
+float:left;
+</style>
+
+
+
+</apex:outputPanel>
+
+
+
+
+</apex:pageBlockSection>
+
+
+
+</apex:pageBlock>
+
+    </apex:form>
+</apex:page>

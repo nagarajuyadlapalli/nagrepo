@@ -1,0 +1,22 @@
+<apex:page standardController="account" >
+ <apex:form >
+ <apex:pageBlock title="this is nagraj">
+ <apex:dataTable value="{!account.contacts}" var="con" cellpadding="3" border="1">
+ <apex:column >
+ {!con.name}
+ <apex:facet name="header">name of the type</apex:facet>
+ </apex:column>
+ <apex:column >
+ {!con.phone}
+ <apex:facet name="header">contact of user</apex:facet>
+ </apex:column>
+
+  </apex:dataTable>
+ 
+ <apex:detail subject="{!$CurrentPage.parameters.cid}" relatedList="false"/>
+ 
+ 
+ </apex:pageBlock> 
+ 
+ </apex:form>
+</apex:page>

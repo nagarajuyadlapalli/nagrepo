@@ -1,0 +1,15 @@
+<apex:page >
+<apex:form >
+<apex:outputLabel value="enter name"></apex:outputLabel>
+<apex:inputText id="name"/><br/><br/>
+
+<apex:outputLabel value="enter username"></apex:outputLabel>
+<apex:inputText id="username"/><br/><br/>
+
+<apex:outputLink value="https://www.youtube.com/watch?v=huZhwUXEndw&index=11&list=PLdYQMTciVWO-_J9HB2NB-TApIornE33Sl">youtube</apex:outputLink>
+
+
+
+
+</apex:form>
+ </apex:page>

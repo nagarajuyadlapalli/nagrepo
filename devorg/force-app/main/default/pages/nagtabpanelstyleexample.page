@@ -1,0 +1,27 @@
+<apex:page >
+<apex:form >
+<style>
+.activetab{
+background-color:yellow;
+color:white;
+background-image:none;
+}
+
+.inactivetab{
+background-color:green;
+color:black;
+background-image:none;
+}
+</style>
+<apex:tabpanel switchtype="client" activetabclass="activetab" inactivetabclass="inactivetab">
+<apex:tab label="nag">He is a gud guy</apex:tab>
+<apex:tab label="koti">He is a gud bqtr</apex:tab>
+<apex:tab label="dachi">He is a gud myrmye</apex:tab>
+<apex:tab label="vinay">He is a gud mne74yu</apex:tab>
+
+
+
+
+</apex:tabpanel>
+</apex:form>
+</apex:page>
