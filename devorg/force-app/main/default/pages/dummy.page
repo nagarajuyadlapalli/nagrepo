@@ -1,0 +1,73 @@
+<apex:page standardController="Account" sidebar="false" showheader="false">
+<apex:form >
+<apex:pageblock title="this is an example page of {! $user.firstname}">
+<apex:pageblockSection title="Idedo chudam">
+<!--<apex:pagemessage summary="dengey ra sulliga" severity="confirm" strength="4"></apex:pagemessage>-->
+
+<style>
+.activetab{
+background-color:blue;
+color:white;
+background-image:none
+}
+.inactivetab{
+background-color:green;
+colot:balck;
+background-image:none;
+</style>
+
+
+
+<apex:tabPanel switchType="client" activeTabClass="activetab" inactiveTabClass="inactivetab">
+<apex:tab label="details">my town name is piduguralla</apex:tab>
+<apex:tab label="district">my district name is guntur</apex:tab>
+<apex:tab label="state">my state name is amaravathi</apex:tab>
+</apex:tabPanel><br></br>
+
+
+<apex:inputField value="{!account.fax}"/>
+<apex:outputField value="{!account.type}"/>
+
+
+id of the nagaraju:<apex:inputtext id="nagaraju"/><br></br>
+name of the nagraju:<apex:inputtextarea id="nagaraju1"/><br></br>
+gender:<apex:inputCheckbox id="nag"/>
+
+
+
+<apex:outputLabel value="mobile number"> </apex:outputLabel>
+<apex:outputLink value="https://www.youtube.com/watch?v=-yPbk-2PVRY&index=5&list=PLkR3Xg1vRN6MxcPURLGMGF-SMhDJgQdGU">nag</apex:outputLink>
+
+
+
+<apex:panelBar >
+<apex:panelbarItem label="nag1" onenter="alert('on enter');" onleave="alert('on leave');">na peru nagaraju</apex:panelbarItem>
+<apex:panelbarItem label="nag2" onenter="alert('on enter');" onleave="alert('on leave');">na illu india</apex:panelbarItem>
+</apex:panelBar><br></br>
+
+
+
+<apex:panelGrid id="item1" columns="3" border="4">
+<apex:outputText value="first"></apex:outputText>
+<apex:outputText value="second"></apex:outputText>
+<apex:outputText value="third"></apex:outputText>
+<apex:outputText value="fourth"></apex:outputText>
+<apex:outputText value="fifth"></apex:outputText>
+<apex:outputText value="sixth"></apex:outputText>
+</apex:panelGrid>
+
+
+
+</apex:pageblockSection>
+<apex:pageBlockButtons >
+<apex:commandButton value="save"/>
+</apex:pageBlockButtons>
+</apex:pageblock>
+
+
+
+
+
+
+</apex:form>
+</apex:page>

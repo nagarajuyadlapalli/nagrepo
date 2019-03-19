@@ -1,0 +1,11 @@
+<apex:page standardController="account">
+<apex:form >
+<apex:pageBlock title="nag">
+<apex:pageblockSection title="this is an example of tab order" columns="1">
+
+<apex:inputField value="{!account.phone}" taborderhint="1"/>
+<apex:inputField value="{!account.site}" taborderhint="2"/>
+</apex:pageblockSection>
+</apex:pageBlock>
+</apex:form>
+</apex:page>

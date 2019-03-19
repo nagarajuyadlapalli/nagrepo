@@ -1,0 +1,6 @@
+<apex:page >
+<apex:pageblock title="nag">
+<apex:pagemessage summary="na lavada le" severity="confirm" strength="3"> 
+</apex:pagemessage>
+</apex:pageblock>
+</apex:page>

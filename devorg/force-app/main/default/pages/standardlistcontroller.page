@@ -1,0 +1,13 @@
+<apex:page standardController="account" recordSetVar="accounts" >
+                         <apex:form >
+                         <apex:pageBlock title="this is nagraj">
+                         <apex:datalist value="{!account}" var="con">
+                        
+                         {!con.name}                         
+                          </apex:datalist>       
+                        <apex:commandlink action="{!previous}">prev</apex:commandlink> 
+                        <apex:commandlink action="{!next}">next</apex:commandlink> 
+                         </apex:pageBlock> 
+                         
+                         </apex:form>
+                        </apex:page>

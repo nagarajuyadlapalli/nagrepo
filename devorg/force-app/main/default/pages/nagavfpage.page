@@ -1,0 +1,23 @@
+<apex:page standardController="Account">
+<apex:sectionHeader title="florida" subtitle="plantation"/>
+<apex:image value="http://photobucket.com/gallery/user/starfoxfan/media/cGF0aDovZnVyc29uYS5qcGc=/?searchTerm=short%20url&page=1" style="logo"/>
+                  <apex:form >
+                  
+                      <apex:pageBlock title="my job">
+                      <apex:pageBlockSection >
+                      <apex:inputField value="{!Account.ownership}" required="true"/>
+                      <apex:inputField value="{!account.rating}"/>
+                      <apex:inputField value="{!account.ownership}"/>
+                      <apex:inputField value="{!account.type}"/>
+                      <apex:commandButton value="save"/>
+                      <apex:outputPanel styleClass="travelling">
+                      I am travelling daily from plantation to miami<br/>
+                      It takes around 4hrs journey in a day<br/>
+                      <iframe width="400" height="200" src="https://c.na78.visual.force.com/apex/nagavfpage"/>
+                     
+                 
+                         </apex:outputPanel>
+                      </apex:pageBlockSection>
+                    </apex:pageBlock>
+                  </apex:form>
+               </apex:page>

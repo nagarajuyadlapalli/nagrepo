@@ -1,0 +1,5 @@
+<apex:page standardController="account">
+                             
+                            fax of the account: {! account.fax}
+                              <apex:detail />
+                             </apex:page>

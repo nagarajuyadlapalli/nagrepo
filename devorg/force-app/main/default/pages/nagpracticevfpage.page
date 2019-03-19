@@ -1,0 +1,17 @@
+<apex:page standardController="Account" showHeader="false">
+<apex:sectionHeader title="nag vfpage" subtitle="for th efirst time"/>
+<apex:form >
+<apex:pageblock title="nag">
+<apex:pageBlockSection >
+<apex:outputPanel styleClass="travelling">
+                      I am travelling daily from plantation to miami<br/>
+                      It takes around 4hrs journey in a day<br/>
+                      <apex:inputField value="{!account.phone}"/>
+
+
+
+</apex:outputPanel>
+</apex:pageBlockSection>
+</apex:pageblock>
+</apex:form>
+</apex:page>

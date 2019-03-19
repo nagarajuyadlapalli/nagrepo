@@ -1,0 +1,18 @@
+<apex:page >
+ <apex:pageBlock title="Lavada">
+ <apex:pageblockSection title="sulliga">
+ <apex:pageblockSectionItem >This is nagraj</apex:pageblockSectionItem>
+ <apex:pageblockSectionItem >This is nagraj1</apex:pageblockSectionItem>
+ <apex:pageblockSectionItem >This is nagraj2</apex:pageblockSectionItem>
+ 
+ </apex:pageblockSection>
+
+  <apex:pageblockSection title="bochuga">
+   <apex:pageblockSectionItem >bochu peeku</apex:pageblockSectionItem>
+ <apex:pageblockSectionItem >dengara sulli ga</apex:pageblockSectionItem>
+ <apex:pageblockSectionItem >peekinav thee</apex:pageblockSectionItem>
+ 
+ </apex:pageblockSection>
+  
+ </apex:pageBlock>
+</apex:page>
